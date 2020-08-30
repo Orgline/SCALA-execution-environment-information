@@ -1,0 +1,323 @@
+SUDO_GID=1004
+MAIL=/var/mail/USER
+USER=USER
+HOME=/home/shaoshuai
+LC_CTYPE=C.UTF-8
+SUDO_UID=1004
+LOGNAME=USER
+TERM=xterm-256color
+USERNAME=USER
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+LANG=C.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SUDO_COMMAND=./collect_environment.sh
+SHELL=/bin/bash
+SUDO_USER=shaoshuai
+PWD=/home/shaoshuai/Author-Kit
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.5 LTS
+Release:	18.04
+Codename:	bionic
+Linux hpclab 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              48
+On-line CPU(s) list: 0-47
+Thread(s) per core:  2
+Core(s) per socket:  24
+Socket(s):           1
+NUMA node(s):        4
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               8
+Model name:          AMD Ryzen Threadripper 2970WX 24-Core Processor
+Stepping:            2
+CPU MHz:             1718.437
+CPU max MHz:         3000.0000
+CPU min MHz:         2200.0000
+BogoMIPS:            5999.27
+Virtualization:      AMD-V
+L1d cache:           32K
+L1i cache:           64K
+L2 cache:            512K
+L3 cache:            8192K
+NUMA node0 CPU(s):   0-5,24-29
+NUMA node1 CPU(s):   12-17,36-41
+NUMA node2 CPU(s):   6-11,30-35
+NUMA node3 CPU(s):   18-23,42-47
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+MemTotal:       32869028 kB
+MemFree:        27785300 kB
+MemAvailable:   30882492 kB
+Buffers:          875424 kB
+Cached:          2163124 kB
+SwapCached:            0 kB
+Active:          2227352 kB
+Inactive:        1250516 kB
+Active(anon):     444624 kB
+Inactive(anon):    11464 kB
+Active(file):    1782728 kB
+Inactive(file):  1239052 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 8 kB
+Writeback:             0 kB
+AnonPages:        438868 kB
+Mapped:           140544 kB
+Shmem:             16764 kB
+Slab:            1151560 kB
+SReclaimable:     547576 kB
+SUnreclaim:       603984 kB
+KernelStack:       14544 kB
+PageTables:        22088 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    16434512 kB
+Committed_AS:    2677692 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:     1118680 kB
+DirectMap2M:    15546368 kB
+DirectMap1G:    16777216 kB
+System:    Host: hpclab Kernel: 4.15.0-112-generic x86_64 bits: 64 Console: tty 4
+           Distro: Ubuntu 18.04.5 LTS
+Machine:   Device: desktop Mobo: Micro-Star model: X399 SLI PLUS (MS-7B09) v: 2.0 serial: IC16442586
+           UEFI: American Megatrends v: A.70 date: 11/14/2018
+CPU:       6 core AMD Ryzen Threadripper 2970WX (-MCP-) cache: 3072 KB
+           clock speeds: max: 3000 MHz 1: 1872 MHz 2: 1879 MHz 3: 1902 MHz 4: 1976 MHz
+           5: 2428 MHz 6: 2024 MHz 7: 2040 MHz 8: 1809 MHz 9: 1947 MHz 10: 1909 MHz
+           11: 1871 MHz 12: 1966 MHz 13: 1905 MHz 14: 1872 MHz 15: 1892 MHz 16: 1676 MHz
+           17: 1828 MHz 18: 1901 MHz 19: 1836 MHz 20: 1720 MHz 21: 1897 MHz 22: 1719 MHz
+           23: 1947 MHz 24: 1722 MHz 25: 2064 MHz 26: 1997 MHz 27: 1764 MHz 28: 2046 MHz
+           29: 2871 MHz 30: 1931 MHz 31: 2032 MHz 32: 1854 MHz 33: 1992 MHz 34: 1962 MHz
+           35: 1886 MHz 36: 2025 MHz 37: 1900 MHz 38: 2057 MHz 39: 1934 MHz 40: 1879 MHz
+           41: 2155 MHz 42: 2092 MHz 43: 1797 MHz 44: 1689 MHz 45: 3457 MHz 46: 1956 MHz
+           47: 1908 MHz 48: 1718 MHz
+Graphics:  Card: NVIDIA GV100 [TITAN V]
+           Display Server: X.org 1.19.6 driver: nvidia
+           tty size: 95x25 Advanced Data: N/A for root out of X
+Audio:     Card-1 Advanced Micro Devices [AMD] Family 17h (Models 00h-0fh) HD Audio Controller
+           driver: snd_hda_intel
+           Card-2 NVIDIA Device 10f2 driver: snd_hda_intel
+           Card-3 ASUSTek driver: USB Audio
+           Sound: Advanced Linux Sound Architecture v: k4.15.0-112-generic
+Network:   Card-1: Intel I211 Gigabit Network Connection driver: igb
+           IF: enp8s0 state: up speed: 100 Mbps duplex: full mac: 00:d8:61:30:fc:a9
+           Card-2: Broadcom and subsidiaries BCM4360 802.11ac Wireless Network Adapter
+           driver: wl
+           IF: wlp10s0 state: dormant mac: 1c:87:2c:b8:cc:9d
+Drives:    HDD Total Size: 3500.7GB (5.3% used)
+           ID-1: /dev/nvme0n1 model: Samsung_SSD_970_EVO_Plus_500GB size: 500.1GB
+           ID-2: /dev/sda model: ST3000DM007 size: 3000.6GB
+Partition: ID-1: / size: 2.6T used: 168G (7%) fs: ext4 dev: /dev/sda4
+RAID:      No RAID devices: /proc/mdstat, md_mod kernel module present
+Sensors:   System Temperatures: cpu: 57.8C mobo: N/A
+           Fan Speeds (in rpm): cpu: N/A
+Info:      Processes: 606 Uptime: 2 days Memory: 2006.5/32098.7MB Init: systemd runlevel: 5
+           Client: Shell (collect_environ) inxi: 2.3.56
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0         7:0    0  11.5M  1 loop /snap/universal-ctags/16
+loop1         7:1    0  29.9M  1 loop /snap/snapd/8542
+loop2         7:2    0 107.8M  1 loop /snap/cmake/549
+loop3         7:3    0 107.8M  1 loop /snap/cmake/513
+loop4         7:4    0    55M  1 loop /snap/core18/1880
+loop5         7:5    0  55.3M  1 loop /snap/core18/1885
+loop6         7:6    0  11.3M  1 loop /snap/universal-ctags/13
+loop7         7:7    0  29.9M  1 loop /snap/snapd/8790
+loop8         7:8    0    97M  1 loop /snap/core/9665
+loop9         7:9    0  96.6M  1 loop /snap/core/9804
+loop10        7:10   0 479.7M  1 loop /snap/clion/123
+loop11        7:11   0 479.4M  1 loop /snap/clion/124
+loop12        7:12   0         0 loop 
+sda           8:0    0   2.7T  0 disk 
+├─sda1        8:1    0    16M  0 part 
+├─sda2        8:2    0  97.8G  0 part 
+├─sda3        8:3    0   513M  0 part /boot/efi
+└─sda4        8:4    0   2.6T  0 part /
+nvme0n1     259:0    0 465.8G  0 disk 
+├─nvme0n1p1 259:1    0   499M  0 part 
+├─nvme0n1p2 259:2    0   100M  0 part 
+├─nvme0n1p3 259:3    0    16M  0 part 
+├─nvme0n1p4 259:4    0  97.7G  0 part 
+└─nvme0n1p5 259:5    0 367.5G  0 part /scratch
+Sat Aug 29 20:42:33 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.95.01    Driver Version: 440.95.01    CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  TITAN V             On   | 00000000:42:00.0 Off |                  N/A |
+| 28%   42C    P8    26W / 250W |      0MiB / 12064MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+H/W path                Device     Class       Description
+==========================================================
+                                   system      MS-7B09 (To be filled by O.E.M.)
+/0                                 bus         X399 SLI PLUS (MS-7B09)
+/0/0                               memory      64KiB BIOS
+/0/f                               memory      32GiB System Memory
+/0/f/0                             memory      2667 MHz (0.4 ns) [empty]
+/0/f/1                             memory      8GiB DIMM DDR4 Synchronous Unbuffered (Unregistered) 2667 MHz (0.4 ns)
+/0/f/2                             memory      2667 MHz (0.4 ns) [empty]
+/0/f/3                             memory      8GiB DIMM DDR4 Synchronous Unbuffered (Unregistered) 2667 MHz (0.4 ns)
+/0/f/4                             memory      2667 MHz (0.4 ns) [empty]
+/0/f/5                             memory      8GiB DIMM DDR4 Synchronous Unbuffered (Unregistered) 2667 MHz (0.4 ns)
+/0/f/6                             memory      2667 MHz (0.4 ns) [empty]
+/0/f/7                             memory      8GiB DIMM DDR4 Synchronous Unbuffered (Unregistered) 2667 MHz (0.4 ns)
+/0/12                              memory      2304KiB L1 cache
+/0/13                              memory      12MiB L2 cache
+/0/14                              memory      64MiB L3 cache
+/0/15                              processor   AMD Ryzen Threadripper 2970WX 24-Core Processor
+/0/100                             bridge      Family 17h (Models 00h-0fh) Root Complex
+/0/100/0.2                         generic     Family 17h (Models 00h-0fh) I/O Memory Management Unit
+/0/100/1.1                         bridge      Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/100/1.1/0                       bus         X399 Series Chipset USB 3.1 xHCI Controller
+/0/100/1.1/0/0          usb1       bus         xHCI Host Controller
+/0/100/1.1/0/0/a                   input       AMD SP3 lamplight Control
+/0/100/1.1/0/1          usb2       bus         xHCI Host Controller
+/0/100/1.1/0.1                     storage     X399 Series Chipset SATA Controller
+/0/100/1.1/0.2                     bridge      X399 Series Chipset PCIe Bridge
+/0/100/1.1/0.2/0                   bridge      300 Series Chipset PCIe Port
+/0/100/1.1/0.2/0/0                 bus         ASMedia Technology Inc.
+/0/100/1.1/0.2/0/0/0    usb3       bus         xHCI Host Controller
+/0/100/1.1/0.2/0/0/1    usb4       bus         xHCI Host Controller
+/0/100/1.1/0.2/2                   bridge      300 Series Chipset PCIe Port
+/0/100/1.1/0.2/3                   bridge      300 Series Chipset PCIe Port
+/0/100/1.1/0.2/3/0                 bus         ASM1042A USB 3.0 Host Controller
+/0/100/1.1/0.2/3/0/0    usb5       bus         xHCI Host Controller
+/0/100/1.1/0.2/3/0/0/1             multimedia  XONAR SOUND CARD
+/0/100/1.1/0.2/3/0/1    usb6       bus         xHCI Host Controller
+/0/100/1.1/0.2/4                   bridge      300 Series Chipset PCIe Port
+/0/100/1.1/0.2/5                   bridge      300 Series Chipset PCIe Port
+/0/100/1.1/0.2/6                   bridge      300 Series Chipset PCIe Port
+/0/100/1.1/0.2/6/0      enp8s0     network     I211 Gigabit Network Connection
+/0/100/1.1/0.2/7                   bridge      300 Series Chipset PCIe Port
+/0/100/1.3                         bridge      Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/100/1.3/0            wlp10s0    network     BCM4360 802.11ac Wireless Network Adapter
+/0/100/7.1                         bridge      Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/100/7.1/0                       generic     Advanced Micro Devices, Inc. [AMD]
+/0/100/7.1/0.2                     generic     Family 17h (Models 00h-0fh) Platform Security Processor
+/0/100/7.1/0.3                     bus         USB 3.0 Host controller
+/0/100/7.1/0.3/0        usb7       bus         xHCI Host Controller
+/0/100/7.1/0.3/1        usb8       bus         xHCI Host Controller
+/0/100/8.1                         bridge      Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/100/8.1/0                       generic     Advanced Micro Devices, Inc. [AMD]
+/0/100/8.1/0.2                     storage     FCH SATA Controller [AHCI mode]
+/0/100/8.1/0.3                     multimedia  Family 17h (Models 00h-0fh) HD Audio Controller
+/0/100/14                          bus         FCH SMBus Controller
+/0/100/14.3                        bridge      FCH LPC Bridge
+/0/101                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/102                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/103                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/104                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/105                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/106                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/107                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+/0/108                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+/0/109                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+/0/10a                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+/0/10b                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+/0/10c                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+/0/10d                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+/0/10e                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+/0/10f                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+/0/110                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+/0/111                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+/0/112                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+/0/113                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+/0/114                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+/0/115                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+/0/116                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+/0/117                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+/0/118                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+/0/119                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+/0/11a                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+/0/11b                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+/0/11c                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+/0/11d                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+/0/11e                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+/0/11f                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+/0/120                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+/0/121                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+/0/122                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+/0/123                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+/0/124                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+/0/125                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+/0/126                             bridge      Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+/0/127                             bridge      Family 17h (Models 00h-0fh) Root Complex
+/0/127/0.2                         generic     Family 17h (Models 00h-0fh) I/O Memory Management Unit
+/0/127/7.1                         bridge      Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/127/7.1/0                       generic     Advanced Micro Devices, Inc. [AMD]
+/0/127/7.1/0.2                     generic     Family 17h (Models 00h-0fh) Platform Security Processor
+/0/127/8.1                         bridge      Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/127/8.1/0                       generic     Advanced Micro Devices, Inc. [AMD]
+/0/128                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/129                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12a                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12b                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12c                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12d                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/12e                             bridge      Family 17h (Models 00h-0fh) Root Complex
+/0/12e/0.2                         generic     Family 17h (Models 00h-0fh) I/O Memory Management Unit
+/0/12e/1.1                         bridge      Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/12e/1.1/0                       storage     NVMe SSD Controller SM981/PM981
+/0/12e/3.1                         bridge      Family 17h (Models 00h-0fh) PCIe GPP Bridge
+/0/12e/3.1/0                       display     GV100 [TITAN V]
+/0/12e/3.1/0.1                     multimedia  NVIDIA Corporation
+/0/12e/7.1                         bridge      Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/12e/7.1/0                       generic     Advanced Micro Devices, Inc. [AMD]
+/0/12e/7.1/0.2                     generic     Family 17h (Models 00h-0fh) Platform Security Processor
+/0/12e/7.1/0.3                     bus         USB 3.0 Host controller
+/0/12e/7.1/0.3/0        usb9       bus         xHCI Host Controller
+/0/12e/7.1/0.3/1        usb10      bus         xHCI Host Controller
+/0/12e/8.1                         bridge      Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/12e/8.1/0                       generic     Advanced Micro Devices, Inc. [AMD]
+/0/12e/8.1/0.2                     storage     FCH SATA Controller [AHCI mode]
+/0/12f                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/130                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/131                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/132                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/133                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/134                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/135                             bridge      Family 17h (Models 00h-0fh) Root Complex
+/0/135/0.2                         generic     Family 17h (Models 00h-0fh) I/O Memory Management Unit
+/0/135/7.1                         bridge      Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/135/7.1/0                       generic     Advanced Micro Devices, Inc. [AMD]
+/0/135/7.1/0.2                     generic     Family 17h (Models 00h-0fh) Platform Security Processor
+/0/135/8.1                         bridge      Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+/0/135/8.1/0                       generic     Advanced Micro Devices, Inc. [AMD]
+/0/136                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/137                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/138                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/139                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/13a                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/13b                             bridge      Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+/0/1                    scsi0      storage     
+/0/1/0.0.0              /dev/sda   disk        3TB ST3000DM007-1WY1
+/0/1/0.0.0/1            /dev/sda1  volume      15MiB reserved partition
+/0/1/0.0.0/2            /dev/sda2  volume      97GiB Windows NTFS volume
+/0/1/0.0.0/3            /dev/sda3  volume      512MiB Windows FAT volume
+/0/1/0.0.0/4            /dev/sda4  volume      2696GiB EXT4 volume
